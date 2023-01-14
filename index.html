@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>電卓</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="4" id="top_result">0</td>
+            </tr>
+            <tr>
+                <td class="number" onclick="caliculate(this)">7</td>
+                <td class="number" onclick="caliculate(this)">8</td>    
+                <td class="number" onclick="caliculate(this)">9</td>
+                <td id ="operator" class="number" onclick="caliculate(this)">+</td>  
+            </tr>
+            <tr>
+                <td class="number" onclick="caliculate(this)">4</td>
+                <td class="number" onclick="caliculate(this)">5</td>
+                <td class="number" onclick="caliculate(this)">6</td>
+                <td id ="operator" class="number" onclick="caliculate(this)">-</td>
+            </tr>
+            <tr>
+                <td class="number" onclick="caliculate(this)">1</td>
+                <td class="number" onclick="caliculate(this)">2</td>
+                <td class="number" onclick="caliculate(this)">3</td>
+                <td id ="operator" class="number" onclick="caliculate(this)">*</td>
+            </tr>
+            <tr>
+                <td class="number" onclick="caliculate(this)">0</td>
+                <td class="number" onclick="caliculate(this)">00</td>
+                <td class="number" onclick="caliculate(this)">.</td>
+                <td id="operator" class="number" onclick="caliculate(this)">/</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="number" onclick="caliculate(this)">AC</td>
+                <td colspan="2" class="number" onclick="caliculate(this)">=</td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
